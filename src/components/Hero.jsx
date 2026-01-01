@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from "react-icons/fi";
 import "./Hero.css";
+import profileImage from "../profile.jpg";
+import cvPdf from "../Sibgatul_cv.pdf";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -66,11 +68,7 @@ const Hero = () => {
             <button className="btn-primary hoverable" onClick={scrollToContact}>
               Get In Touch
             </button>
-            <a
-              href="/Sibgatul_cv.pdf"
-              download
-              className="btn-secondary hoverable"
-            >
+            <a href={cvPdf} download className="btn-secondary hoverable">
               <FiDownload /> Download CV
             </a>
           </motion.div>
@@ -122,7 +120,7 @@ const Hero = () => {
             />
             <div className="profile-image">
               <img
-                src="/profile.jpg"
+                src={profileImage}
                 alt="Sibgatul Hassen"
                 className="profile-photo"
                 onError={(e) => {
