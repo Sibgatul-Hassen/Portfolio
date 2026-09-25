@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from "react-icons/fi";
 import "./Hero.css";
 import profileImage from "../profile.jpg";
-import cvPdf from "../Sibgatul_cv.pdf";
+import cvPdf from "../Sibgatul_CV.pdf";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -83,13 +83,13 @@ const Hero = () => {
               <FiGithub />
             </a>
             <a
-              href="mailto:contact@sibgatulhassen.com"
+              href="mailto:sibgatulhassen@gmail.com"
               className="social-link hoverable"
             >
               <FiMail />
             </a>
             <a
-              href="https://linkedin.com/in/sibgatul-hassen"
+              href="https://www.linkedin.com/in/sibgatul-hassen-456882282/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link hoverable"
