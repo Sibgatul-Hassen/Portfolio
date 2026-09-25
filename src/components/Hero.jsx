@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from "react-icons/fi";
 import "./Hero.css";
-import profileImage from "../profile.jpg";
+import profileImage from "../profile.png";
 import cvPdf from "../Sibgatul_CV.pdf";
 
 const Hero = () => {
